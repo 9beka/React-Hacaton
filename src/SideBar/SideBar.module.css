@@ -1,0 +1,31 @@
+.sideBar{
+ position: fixed;
+ overflow-y: auto;
+ height: 100vh;
+ left: 0;
+ top: 0;
+ box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+ background-color: #001529;
+ width: 160px;
+ overflow: hidden;
+}
+.sideBar__header{
+  /* padding: 0; */
+  background-color:#FFFFFF;
+
+  
+}
+/* .sidBar__btn{
+  font-size: 16px;
+  margin: 0 auto;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} */
+.sideBar__content{
+  margin: 24px 16px;
+  min-height: 100vh;
+
+}
