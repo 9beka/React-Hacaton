@@ -11,6 +11,7 @@ const Product = ({state , loading}) => {
   const handleClick= (record) =>{
 navigate(`/details/${record.id}`);
   }
+  console.log(state);
   
   return (
     <HocWrap>
