@@ -10,6 +10,7 @@ import { Layout, Menu } from "antd";
 const { Sider } = Layout;
 
 const SideBar = () => {
+console.log();
 
   const menuArr = [
     {
